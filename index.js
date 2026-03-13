@@ -278,3 +278,27 @@ cloneCards();
 // Animation speed adjust (Optional)
 // Tumhi ithe animation speed dynamically change karu sakta
 
+
+
+//===========================
+//FOOTER JS
+//===========================
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Update Year
+    const yearSpan = document.getElementById('current-year');
+    if(yearSpan) yearSpan.textContent = new Date().getFullYear();
+
+    // Intersection Observer
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.classList.add('active');
+                }, index * 100);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.animate-box').forEach(el => observer.observe(el));
+});

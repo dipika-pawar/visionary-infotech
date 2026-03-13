@@ -20,6 +20,9 @@ navLinks.forEach(n => n.addEventListener('click', () => {
 }));
 
 
+//===========================
+//FOOTER JS
+//===========================
 
 document.addEventListener("DOMContentLoaded", () => {
     // Update Year
