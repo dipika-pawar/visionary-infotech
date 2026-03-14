@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visionary Infotech | Premium IT Solutions</title>
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
 
-<!-- ======================
+    <!-- ======================
 start navbar
 ====================== -->
 
-<nav class="navbar">
+    <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
                 <img src="Images/logo.png" alt="Visionary Infotech Logo">
@@ -43,83 +44,614 @@ start navbar
         </div>
     </nav>
 
-<!-- ======================
+    <!-- ======================
 end navbar
 ====================== -->
 
+    <section class="portfolio-hero">
+        <div class="glow-container">
+            <div class="glow-circle teal-glow"></div>
+            <div class="glow-circle orange-glow"></div>
+        </div>
+
+        <div class="hero-container">
+            <div class="portfolio-hero-content">
+                <span class="portfolio-badge">Portfolio</span>
+                <h1 class="portfolio-title">Innovative Digital <br><span class="gradient-text">Solutions
+                        Delivered.</span></h1>
+                <p class="portfolio-subtitle">
+                    We don't just write code; we solve business challenges. Explore our journey of transforming complex
+                    ideas into scalable digital products.
+                </p>
+
+                <div class="portfolio-action-area">
+                    <a href="#projects" class="btn-primary-glow">Explore Our Work</a>
+                    <a href="contact.html" class="btn-secondary-outline">Start a Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-nav-light">
+        <div class="container-wide">
+            <div class="filter-container">
+                <div class="filter-header">
+                    <span class="filter-tag">Our Expertise</span>
+                    <h2>Filter by <span>Technology</span></h2>
+                </div>
+
+                <div class="category-grid">
+                    <button class="cat-card active" data-filter="all">
+                        <div class="cat-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <div class="cat-info">
+                            <h4>All Work</h4>
+                            <p>Complete Portfolio</p>
+                        </div>
+                    </button>
+
+                    <button class="cat-card" data-filter="web">
+                        <div class="cat-icon"><i class="fa-solid fa-globe"></i></div>
+                        <div class="cat-info">
+                            <h4>Web Platforms</h4>
+                            <p>Enterprise & SaaS</p>
+                        </div>
+                    </button>
+
+                    <button class="cat-card" data-filter="mobile">
+                        <div class="cat-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                        <div class="cat-info">
+                            <h4>Mobile Apps</h4>
+                            <p>iOS & Android</p>
+                        </div>
+                    </button>
+
+                    <button class="cat-card" data-filter="cloud">
+                        <div class="cat-icon"><i class="fa-solid fa-cloud-bolt"></i></div>
+                        <div class="cat-info">
+                            <h4>Cloud Solutions</h4>
+                            <p>AWS & Azure</p>
+                        </div>
+                    </button>
+
+                    <button class="cat-card" data-filter="uiux">
+                        <div class="cat-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                        <div class="cat-info">
+                            <h4>UI/UX Design</h4>
+                            <p>Research & Prototype</p>
+                        </div>
+                    </button>
+
+                    <button class="cat-card" data-filter="custom">
+                        <div class="cat-icon"><i class="fa-solid fa-code-branch"></i></div>
+                        <div class="cat-info">
+                            <h4>Custom Software</h4>
+                            <p>Business Logic</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="project-showcase-light" id="projects">
+        <div class="container-wide">
+            <div class="showcase-header animate-fade-in">
+                <span class="badge-light">Case Studies</span>
+                <h2>Transforming Visions into <span class="gradient-text-alt">Digital Reality</span></h2>
+                <p>Explore our track record of solving complex industrial challenges through precision engineering.</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card animate-project">
+                    <div class="project-img-wrapper">
+                        <img src="Images/case-study1.avif"
+                            alt="FinTech Dashboard">
+                        <div class="industry-overlay">Finance / Banking</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>FinTech Analytics Dashboard</h3>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-bolt"></i> The Challenge</label>
+                            <p>Scaling a secure platform for real-time multi-currency monitoring with strict compliance.
+                            </p>
+                        </div>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-check-double"></i> Our Solution</label>
+                            <p>High-performance WebSocket dashboard with AES-256 banking-grade encryption.</p>
+                        </div>
+                        <div class="tech-tags">
+                            <span>React.js</span><span>D3.js</span><span>Node.js</span><span>WebSockets</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-project">
+                    <div class="project-img-wrapper">
+                        <img src="Images/case-study2.avif"
+                            alt="Logistics System">
+                        <div class="industry-overlay">Supply Chain</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Fleet Management System</h3>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-bolt"></i> The Challenge</label>
+                            <p>Manual tracking caused 15% inventory loss and operational blind spots.</p>
+                        </div>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-check-double"></i> Our Solution</label>
+                            <p>GPS-enabled system with automated route optimization and real-time driver apps.</p>
+                        </div>
+                        <div class="tech-tags">
+                            <span>Flutter</span><span>Django</span><span>Google Maps</span><span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-project">
+                    <div class="project-img-wrapper">
+                        <img src="Images/case-study3.avif"
+                            alt="E-Commerce">
+                        <div class="industry-overlay">Retail</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Marketplace Platform</h3>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-bolt"></i> The Challenge</label>
+                            <p>Handling thousands of concurrent users and massive product catalogs during peak traffic.
+                            </p>
+                        </div>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-check-double"></i> Our Solution</label>
+                            <p>Cloud-native marketplace with Stripe integration and AI recommendations.</p>
+                        </div>
+                        <div class="tech-tags">
+                            <span>Next.js</span><span>MongoDB</span><span>Stripe</span><span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-project">
+                    <div class="project-img-wrapper">
+                        <img src="Images/case-study4.jpeg"
+                            alt="Telemedicine">
+                        <div class="industry-overlay">Healthcare</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Telemedicine Platform</h3>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-bolt"></i> The Challenge</label>
+                            <p>Creating a HIPAA-compliant remote consultation tool with low-latency video.</p>
+                        </div>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-check-double"></i> Our Solution</label>
+                            <p>Secure WebRTC-based platform with automated scheduling and e-prescriptions.</p>
+                        </div>
+                        <div class="tech-tags">
+                            <span>React</span><span>Spring Boot</span><span>WebRTC</span><span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-project">
+                    <div class="project-img-wrapper">
+                        <img src="Images/case-study5.jpeg"
+                            alt="AI Chatbot">
+                        <div class="industry-overlay">Customer Service / AI</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Support Chatbot</h3>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-bolt"></i> The Challenge</label>
+                            <p>Managing thousands of repetitive daily queries that overwhelmed support staff.</p>
+                        </div>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-check-double"></i> Our Solution</label>
+                            <p>Intelligent NLP chatbot integrated with CRM for 24/7 automated resolution.</p>
+                        </div>
+                        <div class="tech-tags">
+                            <span>Python</span><span>OpenAI API</span><span>TensorFlow</span><span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-project">
+                    <div class="project-img-wrapper">
+                        <img src="Images/case-study6.avif"
+                            alt="EdTech Platform">
+                        <div class="industry-overlay">Education / EdTech</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Adaptive Learning Management System</h3>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-bolt"></i> The Challenge</label>
+                            <p>Traditional platforms lacked personalization, leading to a 40% student dropout rate in
+                                online courses.</p>
+                        </div>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-check-double"></i> Our Solution</label>
+                            <p>Developed an AI-driven LMS that adapts content difficulty based on real-time student
+                                performance metrics.</p>
+                        </div>
+                        <div class="tech-tags">
+                            <span>React</span><span>Node.js</span><span>Python (AI)</span><span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-project">
+                    <div class="project-img-wrapper">
+                        <img src="Images/case-study6.avif"
+                            alt="Smart Grid">
+                        <div class="industry-overlay">Energy / Utilities</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Grid IoT Monitoring</h3>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-bolt"></i> The Challenge</label>
+                            <p>Utility providers struggled with power leakage and inefficient load balancing across
+                                rural grids.</p>
+                        </div>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-check-double"></i> Our Solution</label>
+                            <p>An IoT-enabled dashboard that monitors transformers in real-time and predicts peak loads
+                                using ML.</p>
+                        </div>
+                        <div class="tech-tags">
+                            <span>MQTT</span><span>Go</span><span>InfluxDB</span><span>Grafana</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-project">
+                    <div class="project-img-wrapper">
+                        <img src="Images/case-study8.avif"
+                            alt="Video Streaming">
+                        <div class="industry-overlay">Media / Entertainment</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>OTT Video Streaming Engine</h3>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-bolt"></i> The Challenge</label>
+                            <p>Buffering issues and high CDN costs during high-concurrent live sporting events.</p>
+                        </div>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-check-double"></i> Our Solution</label>
+                            <p>Custom HLS streaming architecture with multi-bitrate encoding and edge computing
+                                optimization.</p>
+                        </div>
+                        <div class="tech-tags">
+                            <span>Next.js</span><span>FFmpeg</span><span>AWS CloudFront</span><span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-project">
+                    <div class="project-img-wrapper">
+                        <img src="Images/case-study9.avif"
+                            alt="Precision Farming">
+                        <div class="industry-overlay">Agriculture / IoT</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Precision Farming Dashboard</h3>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-bolt"></i> The Challenge</label>
+                            <p>Farmers lacked precise data on soil moisture and pest threats, leading to 20% crop
+                                wastage.</p>
+                        </div>
+                        <div class="project-detail">
+                            <label><i class="fa-solid fa-check-double"></i> Our Solution</label>
+                            <p>Mobile-first platform integrating satellite imagery and field sensors for automated
+                                irrigation control.</p>
+                        </div>
+                        <div class="tech-tags">
+                            <span>Flutter</span><span>Django</span><span>OpenWeather API</span><span>AWS IoT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-stack-dark">
+        <div class="container-wide">
+            <div class="tech-header animate-stack-title">
+                <span class="tech-badge">Our Arsenal</span>
+                <h2>The <span class="gradient-text">Powerhouse</span> Behind Our Solutions</h2>
+                <p class="tech-subtitle">We leverage a modern, enterprise-grade technology stack to build scalable
+                    digital products. From AI integration to cloud-native architecture, we use the right tools for the
+                    job.</p>
+            </div>
+
+            <div class="stack-grid">
+                <div class="stack-category animate-stack-card">
+                    <div class="category-title">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="logo-grid">
+                        <div class="logo-item" title="React"><i class="fa-brands fa-react react-icon"></i></div>
+                        <div class="logo-item" title="Angular"><i class="fa-brands fa-angular angular-icon"></i></div>
+                        <div class="logo-item" title="Vue.js"><i class="fa-brands fa-vuejs vue-icon"></i></div>
+                        <div class="logo-item" title="Next.js">
+                            <img src="https://cdn.simpleicons.org/nextdotjs/white" alt="Next.js" class="png-icon">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stack-category animate-stack-card">
+                    <div class="category-title">
+                        <i class="fa-solid fa-server"></i>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="logo-grid">
+                        <div class="logo-item" title="Java Spring"><i class="fa-brands fa-java java-icon"></i></div>
+                        <div class="logo-item" title="Python"><i class="fa-brands fa-python python-icon"></i></div>
+                        <div class="logo-item" title="Node.js"><i class="fa-brands fa-node-js node-icon"></i></div>
+                        <div class="logo-item" title="Laravel"><i class="fa-brands fa-laravel laravel-icon"></i></div>
+                    </div>
+                </div>
+
+                <div class="stack-category animate-stack-card">
+                    <div class="category-title">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <h3>Mobile</h3>
+                    </div>
+                    <div class="logo-grid">
+                        <div class="logo-item" title="Flutter"><img src="https://img.icons8.com/fluent/96/flutter.png"
+                                class="png-icon"></div>
+                        <div class="logo-item" title="React Native"><i class="fa-brands fa-react react-icon"></i></div>
+                        <div class="logo-item" title="Swift"><i class="fa-brands fa-swift swift-icon"></i></div>
+                        <div class="logo-item" title="Kotlin"><img src="https://img.icons8.com/color/96/kotlin.png"
+                                class="png-icon"></div>
+                    </div>
+                </div>
+
+                <div class="stack-category animate-stack-card">
+                    <div class="category-title">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>Database</h3>
+                    </div>
+                    <div class="logo-grid">
+                        <div class="logo-item" title="MongoDB">
+                            <img src="https://cdn.simpleicons.org/mongodb/47A248" alt="MongoDB" class="png-icon">
+                        </div>
+                        <div class="logo-item" title="MySQL"><img src="https://img.icons8.com/fluent/96/mysql.png"
+                                class="png-icon"></div>
+                        <div class="logo-item" title="Redis"><img src="https://img.icons8.com/color/96/redis.png"
+                                class="png-icon"></div>
+                        <div class="logo-item" title="Oracle"><i class="fa-solid fa-database oracle-icon"></i></div>
+                    </div>
+                </div>
+
+                <div class="stack-category animate-stack-card">
+                    <div class="category-title">
+                        <i class="fa-solid fa-cloud"></i>
+                        <h3>Cloud & DevOps</h3>
+                    </div>
+                    <div class="logo-grid">
+                        <div class="logo-item" title="AWS"><i class="fa-brands fa-aws aws-icon"></i></div>
+                        <div class="logo-item" title="Google Cloud"><img
+                                src="https://img.icons8.com/color/96/google-cloud-platform.png" class="png-icon"></div>
+                        <div class="logo-item" title="Kubernetes"><i class="fa-solid fa-dharmachakra k8s-icon"></i>
+                        </div>
+                        <div class="logo-item" title="Jenkins"><i class="fa-brands fa-jenkins jenkins-icon"></i></div>
+                    </div>
+                </div>
+
+                <div class="stack-category animate-stack-card">
+                    <div class="category-title">
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <h3>UI/UX Design</h3>
+                    </div>
+                    <div class="logo-grid">
+                        <div class="logo-item" title="Figma"><img src="https://img.icons8.com/color/96/figma--v1.png"
+                                class="png-icon"></div>
+                        <div class="logo-item" title="Adobe XD"><img src="https://img.icons8.com/color/96/adobe-xd.png"
+                                class="png-icon"></div>
+                        <div class="logo-item" title="Photoshop"><img
+                                src="https://img.icons8.com/color/96/adobe-photoshop.png" class="png-icon"></div>
+                        <div class="logo-item" title="Canva"><i class="fa-solid fa-palette palette-icon"></i></div>
+                    </div>
+                </div>
+
+                <div class="stack-category animate-stack-card">
+                    <div class="category-title">
+                        <i class="fa-solid fa-brain"></i>
+                        <h3>AI & ML</h3>
+                    </div>
+                    <div class="logo-grid">
+                        <div class="logo-item" title="TensorFlow"><img
+                                src="https://img.icons8.com/color/96/tensorflow.png" class="png-icon"></div>
+                        <div class="logo-item" title="PyTorch">
+                            <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" alt="PyTorch" class="png-icon">
+                        </div>
+                        <div class="logo-item" title="OpenAI"><i class="fa-solid fa-microchip ai-icon"></i></div>
+                        <div class="logo-item" title="Pandas"><img src="https://img.icons8.com/color/96/pandas.png"
+                                class="png-icon"></div>
+                    </div>
+                </div>
+
+                <div class="stack-category animate-stack-card">
+                    <div class="category-title">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <h3>Management</h3>
+                    </div>
+                    <div class="logo-grid">
+                        <div class="logo-item" title="GitHub"><i class="fa-brands fa-github github-icon"></i></div>
+                        <div class="logo-item" title="Jira"><img src="https://img.icons8.com/color/96/jira.png"
+                                class="png-icon"></div>
+                        <div class="logo-item" title="Docker"><i class="fa-brands fa-docker docker-icon"></i></div>
+                        <div class="logo-item" title="Slack"><i class="fa-brands fa-slack slack-icon"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process-light" id="process">
+        <div class="container-wide">
+            <div class="process-header animate-process-in">
+                <span class="process-badge">Our Methodology</span>
+                <h2>The <span class="gradient-text-alt">Visionary</span> Process</h2>
+                <p>From the first handshake to the final deployment, we follow a transparent, high-precision workflow
+                    designed for success.</p>
+            </div>
+
+            <div class="process-steps">
+                <div class="process-card animate-process-card">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                        <h3>Requirement Analysis</h3>
+                        <p>We dive deep into your business goals, user needs, and market landscape to define a clear
+                            roadmap.</p>
+                    </div>
+                </div>
+
+                <div class="process-card animate-process-card">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <h3>Architecture Design</h3>
+                        <p>Planning a secure, scalable, and robust structural foundation before a single line of code is
+                            written.</p>
+                    </div>
+                </div>
+
+                <div class="process-card animate-process-card">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fa-solid fa-code-branch"></i></div>
+                        <h3>Agile Development</h3>
+                        <p>Writing clean, efficient code in 2-week sprints with regular updates and feedback loops.</p>
+                    </div>
+                </div>
+
+                <div class="process-card animate-process-card">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fa-solid fa-vial-circle-check"></i></div>
+                        <h3>Rigorous QA</h3>
+                        <p>Exhaustive testing for performance, security, and bugs to ensure a polished final product.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="process-card animate-process-card">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fa-solid fa-rocket"></i></div>
+                        <h3>Deployment & Support</h3>
+                        <p>Smooth launch and ongoing 24/7 maintenance to keep your product evolving with your users.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-dark" id="contact-cta">
+        <div class="container-wide">
+            <div class="cta-card animate-cta">
+                <div class="cta-content">
+                    <span class="cta-badge">Ready to Scale?</span>
+                    <h2>Have a Vision? <span class="gradient-text">We Have the Tech.</span></h2>
+                    <p>Let's discuss how we can build your next big project together. Our team is ready to turn your
+                        ideas into a high-performance digital reality.</p>
+
+                    <div class="cta-actions">
+                        <a href="#contact" class="btn-primary">Get a Free Consultation</a>
+                        <a href="#quote" class="btn-secondary">Request a Quote</a>
+                    </div>
+                </div>
+
+                <div class="cta-sphere"></div>
+            </div>
+        </div>
+    </section>
 
 
 
-<!-- ================
+
+    <!-- ================
  FOOTER
  ==================== -->
-<footer class="mega-footer">
-    <div class="footer-container">
-        <div class="footer-main-grid">
-            
-            <div class="footer-col animate-box">
-                <div class="brand-wrapper">
-                    <img src="Images/logo.png" alt="Visionary Infotech" class="footer-logo">
-                    <p class="brand-statement">
-                        Architecting the future through sustainable innovation. Visionary Infotech provides enterprise-grade digital solutions.
-                    </p>
-                    <div class="social-symbol-row">
-                        <a href="#" class="symbol-link" style="--hover-bg: #0077b5;" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#" class="symbol-link" style="--hover-bg: #E1306C;" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" class="symbol-link" style="--hover-bg: #1877f2;" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+    <footer class="mega-footer">
+        <div class="footer-container">
+            <div class="footer-main-grid">
+
+                <div class="footer-col animate-box">
+                    <div class="brand-wrapper">
+                        <img src="Images/logo.png" alt="Visionary Infotech" class="footer-logo">
+                        <p class="brand-statement">
+                            Architecting the future through sustainable innovation. Visionary Infotech provides
+                            enterprise-grade digital solutions.
+                        </p>
+                        <div class="social-symbol-row">
+                            <a href="#" class="symbol-link" style="--hover-bg: #0077b5;" title="LinkedIn"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="symbol-link" style="--hover-bg: #E1306C;" title="Instagram"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="symbol-link" style="--hover-bg: #1877f2;" title="Facebook"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="footer-col animate-box">
-                <h4 class="footer-h">Expertise</h4>
-                <ul class="footer-nav">
-                    <li><a href="#">Custom Software</a></li>
-                    <li><a href="#">Cyber Security</a></li>
-                    <li><a href="#">Cloud Strategy</a></li>
-                    <li><a href="#">AI Integration</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col animate-box">
-                <h4 class="footer-h">Quick Links</h4>
-                <ul class="footer-nav">
-                    <li><a href="#">Our Vision</a></li>
-                    <li><a href="#">Latest Projects</a></li>
-                    <li><a href="#">Join Our Team</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col animate-box">
-                <h4 class="footer-h">Reach Us</h4>
-                <div class="contact-mini-list">
-                    <div class="c-item">
-                        <i class="fa-solid fa-envelope-open-text"></i>
-                        <p>hello@visionary.com</p>
-                    </div>
-                    <div class="c-item">
-                        <i class="fa-solid fa-phone-volume"></i>
-                        <p>+1 (555) 012-3456</p>
-                    </div>
+                <div class="footer-col animate-box">
+                    <h4 class="footer-h">Expertise</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#">Custom Software</a></li>
+                        <li><a href="#">Cyber Security</a></li>
+                        <li><a href="#">Cloud Strategy</a></li>
+                        <li><a href="#">AI Integration</a></li>
+                    </ul>
                 </div>
-                <form class="glass-form">
-                    <input type="email" placeholder="Your Email" required>
-                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
-                </form>
+
+                <div class="footer-col animate-box">
+                    <h4 class="footer-h">Quick Links</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#">Our Vision</a></li>
+                        <li><a href="#">Latest Projects</a></li>
+                        <li><a href="#">Join Our Team</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col animate-box">
+                    <h4 class="footer-h">Reach Us</h4>
+                    <div class="contact-mini-list">
+                        <div class="c-item">
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                            <p>hello@visionary.com</p>
+                        </div>
+                        <div class="c-item">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <p>+1 (555) 012-3456</p>
+                        </div>
+                        <div class="c-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Pune, Maharashtra, India</p>
+                        </div>
+                    </div>
+                    <form class="glass-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+
             </div>
 
-        </div>
-
-        <div class="footer-bottom-bar">
-            <p>&copy; <span id="current-year"></span> <strong>Visionary Infotech</strong> | All rights are reserved.</p>
-            <div class="b-right">
-                <a href="#">Privacy</a>
-                <a href="#">Terms & Conditions </a>
+            <div class="footer-bottom-bar">
+                <p>&copy; <span id="current-year"></span> <strong>Visionary Infotech</strong> | All rights are reserved.
+                </p>
+                <div class="b-right">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms & Conditions </a>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 
 
