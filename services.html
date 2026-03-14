@@ -12,11 +12,11 @@
 
 <body>
 
-<!-- ======================
+    <!-- ======================
 start navbar
 ====================== -->
 
-<nav class="navbar">
+    <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
                 <img src="Images/logo.png" alt="Visionary Infotech Logo">
@@ -43,83 +43,548 @@ start navbar
         </div>
     </nav>
 
-<!-- ======================
+    <!-- ======================
 end navbar
 ====================== -->
 
+    <!-- ======================
+services banner
+====================== -->
 
+    <section class="cyber-hero">
+        <canvas id="lightTrailsCanvas"></canvas>
 
+        <div class="overlay-gradient"></div>
 
-<!-- ================
- FOOTER
- ==================== -->
-<footer class="mega-footer">
-    <div class="footer-container">
-        <div class="footer-main-grid">
-            
-            <div class="footer-col animate-box">
-                <div class="brand-wrapper">
-                    <img src="Images/logo.png" alt="Visionary Infotech" class="footer-logo">
-                    <p class="brand-statement">
-                        Architecting the future through sustainable innovation. Visionary Infotech provides enterprise-grade digital solutions.
+        <div class="container">
+            <div class="hero-content">
+                <div class="simple-glass-panel">
+                    <span class="cyber-tag">System Status: Innovation Active</span>
+                    <h1 class="hero-title">Our <span class="neon-text">Services</span></h1>
+                    <p class="hero-subtitle">Engineering the Digital Future</p>
+
+                    <div class="divider"></div>
+
+                    <p class="hero-intro">
+                        We provide innovative IT solutions designed to help businesses grow, scale, and succeed in the
+                        digital world. From concept to deployment, we build the technology that builds your brand.
                     </p>
-                    <div class="social-symbol-row">
-                        <a href="#" class="symbol-link" style="--hover-bg: #0077b5;" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#" class="symbol-link" style="--hover-bg: #E1306C;" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" class="symbol-link" style="--hover-bg: #1877f2;" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+
+                    <div class="hero-cta">
+                        <button class="btn-neon">Explore Solutions</button>
+                        <div class="status-indicator">
+                            <span class="dot"></span> 24/7 Digital Support
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="footer-col animate-box">
-                <h4 class="footer-h">Expertise</h4>
-                <ul class="footer-nav">
-                    <li><a href="#">Custom Software</a></li>
-                    <li><a href="#">Cyber Security</a></li>
-                    <li><a href="#">Cloud Strategy</a></li>
-                    <li><a href="#">AI Integration</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col animate-box">
-                <h4 class="footer-h">Quick Links</h4>
-                <ul class="footer-nav">
-                    <li><a href="#">Our Vision</a></li>
-                    <li><a href="#">Latest Projects</a></li>
-                    <li><a href="#">Join Our Team</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col animate-box">
-                <h4 class="footer-h">Reach Us</h4>
-                <div class="contact-mini-list">
-                    <div class="c-item">
-                        <i class="fa-solid fa-envelope-open-text"></i>
-                        <p>hello@visionary.com</p>
-                    </div>
-                    <div class="c-item">
-                        <i class="fa-solid fa-phone-volume"></i>
-                        <p>+1 (555) 012-3456</p>
-                    </div>
-                </div>
-                <form class="glass-form">
-                    <input type="email" placeholder="Your Email" required>
-                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
-                </form>
-            </div>
-
         </div>
+    </section>
 
-        <div class="footer-bottom-bar">
-            <p>&copy; <span id="current-year"></span> <strong>Visionary Infotech</strong> | All rights are reserved.</p>
-            <div class="b-right">
-                <a href="#">Privacy</a>
-                <a href="#">Terms & Conditions </a>
+    <!-- ======================
+services banner
+====================== -->
+
+    <!-- ======================
+Web Development
+====================== -->
+
+    <section class="web-dev-section">
+        <div class="container">
+            <div class="web-flex-container">
+
+                <div class="web-content reveal-left">
+                    <h4 class="service-num">Main Services</h4>
+                    <h2 class="service-title">Web <span class="gradient-text">Development</span></h2>
+                    <div class="service-line"></div>
+
+                    <ul class="web-points">
+                        <li>
+                            <span class="icon">🛠</span>
+                            <div>
+                                <h3>Custom Website Development</h3>
+                                <p>Tailored frameworks built from scratch to match your unique brand identity.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon">📱</span>
+                            <div>
+                                <h3>Responsive & Mobile-Friendly</h3>
+                                <p>Omni-channel experience that works flawlessly on every screen size.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon">⚡</span>
+                            <div>
+                                <h3>Fast & Secure</h3>
+                                <p>Blazing fast load times with bank-grade security protocols.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon">🛒</span>
+                            <div>
+                                <h3>E-commerce Solutions</h3>
+                                <p>Next-gen shopping experiences with seamless payment integration.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="web-visual reveal-right">
+                    <div class="browser-stack" id="browserStack">
+                        <div class="browser-layer layer-bottom">
+                            <div class="layer-label">Database & Security</div>
+                            <div class="code-lines"></div>
+                        </div>
+                        <div class="browser-layer layer-middle">
+                            <div class="layer-label">Code & Logic</div>
+                            <div class="code-lines"></div>
+                        </div>
+                        <div class="browser-layer layer-top">
+                            <div class="layer-label">UI/UX Design</div>
+                            <div class="browser-header">
+                                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                            </div>
+                            <div class="browser-mockup">
+                                <div class="mock-hero"></div>
+                                <div class="mock-grid">
+                                    <span></span><span></span><span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+        </div>
+    </section>
+
+    <!-- ======================
+Web Development
+====================== -->
+
+    <!-- ========================
+Mobile App Development
+======================== -->
+
+    <section class="app-dev-section">
+        <div class="section-title-area">
+            <h2 class="main-heading">Expert <span class="gradient-text">Mobile App</span> Development</h2>
+            <div class="heading-line"></div>
+        </div>
+        <div class="container">
+            <div class="app-grid">
+
+                <div class="app-points left">
+                    <div class="point-box active" data-screen="android">
+                        <div class="icon-circle">🤖</div>
+                        <h3>Android Development</h3>
+                        <p>Native excellence using Kotlin for high-performance apps.</p>
+                    </div>
+                    <div class="point-box" data-screen="ios">
+                        <div class="icon-circle">🍎</div>
+                        <h3>iOS Development</h3>
+                        <p>Premium Swift-based apps for the Apple ecosystem.</p>
+                    </div>
+                </div>
+
+                <div class="app-visual">
+                    <div class="phone-wrapper">
+                        <div class="phone-case">
+                            <div class="phone-screen">
+                                <div class="screen-content android-ui active" id="android-screen">
+                                    <div class="status-bar"></div>
+                                    <div class="app-icon-grid">
+                                        <span></span><span></span><span></span><span></span>
+                                    </div>
+                                </div>
+                                <div class="screen-content ios-ui" id="ios-screen">
+                                    <div class="notch"></div>
+                                    <div class="app-list">
+                                        <div class="line"></div>
+                                        <div class="line"></div>
+                                    </div>
+                                </div>
+                                <div class="screen-content hybrid-ui" id="hybrid-screen">
+                                    <div class="wave-bg"></div>
+                                    <div class="hybrid-logo">Cross</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="app-points right">
+                    <div class="point-box" data-screen="hybrid">
+                        <div class="icon-circle">🔄</div>
+                        <h3>Cross-Platform</h3>
+                        <p>Unified experience using Flutter & React Native.</p>
+                    </div>
+                    <div class="point-box" data-screen="uiux">
+                        <div class="icon-circle">🎨</div>
+                        <h3>User-Friendly UI</h3>
+                        <p>Intuitive interfaces with modern gesture support.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================
+Mobile App Development
+======================== -->
+
+<!-- ==========================
+UI/UX Design
+========================== -->
+
+<section class="uiux-section">
+    <div class="container">
+        <div class="uiux-flex">
+            
+            <div class="uiux-content">
+                <div class="section-tag">Design Strategy</div>
+                <h2 class="title">Crafting <span class="highlight">Immersive</span> Experiences</h2>
+                
+                <div class="features-list">
+                    <div class="feat-item" onmouseover="transformDesign(1)">
+                        <div class="feat-icon">🎨</div>
+                        <div class="feat-text">
+                            <h3>Modern & Creative UI</h3>
+                            <p>Trend-setting aesthetics that build a unique brand identity.</p>
+                        </div>
+                    </div>
+                    <div class="feat-item" onmouseover="transformDesign(2)">
+                        <div class="feat-icon">👥</div>
+                        <div class="feat-text">
+                            <h3>User-Centered Approach</h3>
+                            <p>Empathy-driven interfaces focused on human psychology.</p>
+                        </div>
+                    </div>
+                    <div class="feat-item" onmouseover="transformDesign(3)">
+                        <div class="feat-icon">📐</div>
+                        <div class="feat-text">
+                            <h3>Prototyping & Wireframing</h3>
+                            <p>Strategic blueprints to visualize the user journey early on.</p>
+                        </div>
+                    </div>
+                    <div class="feat-item" onmouseover="transformDesign(4)">
+                        <div class="feat-icon">🖱️</div>
+                        <div class="feat-text">
+                            <h3>Interactive Experience</h3>
+                            <p>Smooth micro-interactions that boost user engagement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uiux-visual">
+                <div class="design-canvas" id="canvas3D">
+                    <div class="layer wireframe-view">
+                        <div class="wf-box wf-header"></div>
+                        <div class="wf-box wf-hero"></div>
+                        <div class="wf-circle wf-float"></div>
+                        <div class="wf-grid">
+                            <span></span><span></span>
+                        </div>
+                    </div>
+                    <div class="layer final-render" id="renderLayer">
+                        <div class="fr-header">Logo</div>
+                        <div class="fr-hero">
+                            <div class="fr-text"></div>
+                            <div class="fr-btn"></div>
+                        </div>
+                        <div class="fr-card-glow"></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-</footer>
+</section>
+
+<!-- ==========================
+UI/UX Design
+========================== -->
+
+<!-- ===============================
+API Development & Integration
+=============================== -->
+
+<section class="api-section">
+    <div class="container">
+        <div class="api-flex">
+            
+            <div class="api-content">
+                <h2 class="api-title">API Development & <span class="neon-purple">Integration</span></h2>
+                <p class="api-desc">We build the digital nervous system of your business with robust and scalable APIs.</p>
+                
+                <div class="api-points-grid">
+                    <div class="api-card">
+                        <div class="api-card-icon">🔐</div>
+                        <h3>Secure REST API</h3>
+                        <p>High-performance backend architecture with JWT & OAuth2 security.</p>
+                    </div>
+                    <div class="api-card">
+                        <div class="api-card-icon">🔗</div>
+                        <h3>Third-party Integration</h3>
+                        <p>Seamless connection with Payment gateways, Social Media, and Maps.</p>
+                    </div>
+                    <div class="api-card">
+                        <div class="api-card-icon">⚙️</div>
+                        <h3>System Solutions</h3>
+                        <p>Bridging legacy systems with modern cloud-based infrastructures.</p>
+                    </div>
+                    <div class="api-card">
+                        <div class="api-card-icon">🔄</div>
+                        <h3>Data Exchange</h3>
+                        <p>Real-time synchronization between disparate software applications.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="api-visual">
+                <div class="microservices-container" id="cubeContainer">
+                    <div class="core-node"></div>
+                    
+                    <div class="node node-1"><span></span></div>
+                    <div class="node node-2"><span></span></div>
+                    <div class="node node-3"><span></span></div>
+                    <div class="node node-4"><span></span></div>
+                    
+                    <svg class="neon-lines">
+                        <line class="line1" x1="50%" y1="50%" x2="20%" y2="20%"></line>
+                        <line class="line2" x1="50%" y1="50%" x2="80%" y2="20%"></line>
+                        <line class="line3" x1="50%" y1="50%" x2="20%" y2="80%"></line>
+                        <line class="line4" x1="50%" y1="50%" x2="80%" y2="80%"></line>
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===============================
+API Development & Integration
+=============================== -->
+
+<!-- =========================
+Cloud Solutions
+========================= -->
+
+<section class="cloud-section">
+    <div class="container">
+        <div class="cloud-flex">
+            
+            <div class="cloud-content">
+                <h2 class="cloud-title">Advanced <span class="sky-text">Cloud Solutions</span></h2>
+                <div class="cloud-line"></div>
+                
+                <div class="cloud-list">
+                    <div class="cloud-item">
+                        <div class="c-icon">🏗️</div>
+                        <div class="c-info">
+                            <h3>Cloud Infrastructure Setup</h3>
+                            <p>Building a 24/7 available foundation for your business operations.</p>
+                        </div>
+                    </div>
+                    <div class="cloud-item">
+                        <div class="c-icon">🚀</div>
+                        <div class="c-info">
+                            <h3>Cloud Migration Services</h3>
+                            <p>Risk-free transition of legacy data to modern cloud platforms.</p>
+                        </div>
+                    </div>
+                    <div class="cloud-item">
+                        <div class="c-icon">🔐</div>
+                        <div class="c-info">
+                            <h3>Secure Cloud Storage</h3>
+                            <p>End-to-end encrypted storage with rapid disaster recovery.</p>
+                        </div>
+                    </div>
+                    <div class="cloud-item">
+                        <div class="c-icon">📈</div>
+                        <div class="c-info">
+                            <h3>Scalable Architecture</h3>
+                            <p>Elastic scaling that grows automatically with your business needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cloud-visual">
+                <div class="stack-container" id="cloudStack">
+                    <div class="stack-layer layer-top">
+                        <span class="l-tag">Services</span>
+                        <div class="l-content">🌐 App Services</div>
+                    </div>
+                    <div class="stack-layer layer-mid">
+                        <span class="l-tag">Security</span>
+                        <div class="l-content">🛡️ SSL & Firewall</div>
+                    </div>
+                    <div class="stack-layer layer-base">
+                        <span class="l-tag">Infrastructure</span>
+                        <div class="l-content">⚙️ Compute & DB</div>
+                    </div>
+                    
+                    <div class="cloud-particles">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- =========================
+Cloud Solutions
+========================= -->
+
+<!-- ======================
+Software Development
+====================== -->
+
+<section class="soft-dev-section">
+    <div class="container">
+        <div class="soft-flex">
+            
+            <div class="soft-visual">
+                <div class="blueprint-container" id="blueprintBox">
+                    <div class="grid-floor"></div>
+                    
+                    <div class="module block-1"></div>
+                    <div class="module block-2"></div>
+                    <div class="module block-3"></div>
+                    <div class="module block-4"></div>
+                    <div class="module block-5"></div>
+                    
+                    <div class="blueprint-overlay"></div>
+                </div>
+            </div>
+
+            <div class="soft-content">
+                <div class="soft-tag">Building the Future</div>
+                <h2 class="soft-title">Robust <span class="gradient-blue">Software</span> Engineering</h2>
+                <div class="soft-line"></div>
+                
+                <div class="soft-grid">
+                    <div class="soft-card">
+                        <div class="s-card-icon">🏗️</div>
+                        <div class="s-card-info">
+                            <h3>Custom Software Solutions</h3>
+                            <p>Tailor-made architectures designed to solve unique business challenges.</p>
+                        </div>
+                    </div>
+                    <div class="soft-card">
+                        <div class="s-card-icon">🏢</div>
+                        <div class="s-card-info">
+                            <h3>Enterprise Applications</h3>
+                            <p>High-capacity systems built for global scale and complex workflows.</p>
+                        </div>
+                    </div>
+                    <div class="soft-card">
+                        <div class="s-card-icon">🤖</div>
+                        <div class="s-card-info">
+                            <h3>Business Automation</h3>
+                            <p>Smart automation systems that multiply your team's efficiency.</p>
+                        </div>
+                    </div>
+                    <div class="soft-card">
+                        <div class="s-card-icon">🔐</div>
+                        <div class="s-card-info">
+                            <h3>Scalable & Secure</h3>
+                            <p>Future-proof security with banking-grade encryption standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- =======================
+Software Development
+======================= -->
+
+    <!-- ================
+ FOOTER
+ ==================== -->
+    <footer class="mega-footer">
+        <div class="footer-container">
+            <div class="footer-main-grid">
+
+                <div class="footer-col animate-box">
+                    <div class="brand-wrapper">
+                        <img src="Images/logo.png" alt="Visionary Infotech" class="footer-logo">
+                        <p class="brand-statement">
+                            Architecting the future through sustainable innovation. Visionary Infotech provides
+                            enterprise-grade digital solutions.
+                        </p>
+                        <div class="social-symbol-row">
+                            <a href="#" class="symbol-link" style="--hover-bg: #0077b5;" title="LinkedIn"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="symbol-link" style="--hover-bg: #E1306C;" title="Instagram"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="symbol-link" style="--hover-bg: #1877f2;" title="Facebook"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-col animate-box">
+                    <h4 class="footer-h">Expertise</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#">Custom Software</a></li>
+                        <li><a href="#">Cyber Security</a></li>
+                        <li><a href="#">Cloud Strategy</a></li>
+                        <li><a href="#">AI Integration</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col animate-box">
+                    <h4 class="footer-h">Quick Links</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#">Our Vision</a></li>
+                        <li><a href="#">Latest Projects</a></li>
+                        <li><a href="#">Join Our Team</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col animate-box">
+                    <h4 class="footer-h">Reach Us</h4>
+                    <div class="contact-mini-list">
+                        <div class="c-item">
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                            <p>hello@visionary.com</p>
+                        </div>
+                        <div class="c-item">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <p>+1 (555) 012-3456</p>
+                        </div>
+                    </div>
+                    <form class="glass-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom-bar">
+                <p>&copy; <span id="current-year"></span> <strong>Visionary Infotech</strong> | All rights are reserved.
+                </p>
+                <div class="b-right">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms & Conditions </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
